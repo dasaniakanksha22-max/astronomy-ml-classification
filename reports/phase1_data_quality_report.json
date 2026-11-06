@@ -1,0 +1,45 @@
+{
+  "project": "Astronomical Object Classification Using Machine Learning",
+  "phase": 1,
+  "raw_rows": 100000,
+  "clean_rows": 99999,
+  "columns": 18,
+  "missing_cells_before": 0,
+  "exact_duplicate_rows_before": 0,
+  "duplicate_sky_coordinate_pairs_before": 1,
+  "duplicate_plate_mjd_fiber_before": 0,
+  "sentinel_value": -9999.0,
+  "invalid_photometric_rows": 1,
+  "invalid_zero_based_row_indices": [
+    79543
+  ],
+  "invalid_per_band": {
+    "u": 1,
+    "g": 1,
+    "r": 0,
+    "i": 0,
+    "z": 1
+  },
+  "constant_columns": [
+    "rerun_ID"
+  ],
+  "original_class_counts": {
+    "GALAXY": 59445,
+    "STAR": 21594,
+    "QSO": 18961
+  },
+  "clean_class_counts": {
+    "GALAXY": 59445,
+    "STAR": 21593,
+    "QSO": 18961
+  },
+  "primary_features": [
+    "u",
+    "g",
+    "r",
+    "i",
+    "z"
+  ],
+  "target": "class",
+  "cleaning_decision": "Drop -9999 photometric rows; retain repeated sky positions and negative redshifts."
+}

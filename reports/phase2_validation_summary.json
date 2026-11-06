@@ -1,0 +1,17 @@
+{
+  "rows": 99999,
+  "columns_original": 18,
+  "classes": {
+    "STAR": 21593,
+    "GALAXY": 59445,
+    "QSO": 18961
+  },
+  "null_cells": 0,
+  "invalid_photometric_sentinels": 0,
+  "pearson_i_z": 0.971545798614244,
+  "top_eta_squared_feature": "g_r",
+  "top_eta_squared_value": 0.3260221277335732,
+  "dashboard_sample_size": 9000,
+  "plotting_seed": 42,
+  "redshift_used_for_primary_ml": false
+}

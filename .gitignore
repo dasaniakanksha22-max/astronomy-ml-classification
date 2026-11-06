@@ -1,0 +1,10 @@
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.pytest_cache/
+.DS_Store
+# Editor settings
+.vscode/
+.idea/
