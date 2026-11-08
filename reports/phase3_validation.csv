@@ -1,0 +1,7 @@
+check,value,result
+Cleaned observations,99999,PASS
+Class categories,3,PASS
+Full records exported,99999,PASS
+Histogram measurement total,499995,PASS
+Visualization sample,9000,PASS
+Dashboard generated,Yes,PASS
