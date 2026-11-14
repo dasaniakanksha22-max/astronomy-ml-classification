@@ -1,0 +1,43 @@
+{
+    "num_observations": 99999,
+    "num_features_engineered": 16,
+    "feature_list": [
+        "u",
+        "g",
+        "r",
+        "i",
+        "z",
+        "u_g",
+        "g_r",
+        "r_i",
+        "i_z",
+        "u_r",
+        "u_z",
+        "g_z",
+        "curvature_ugr",
+        "curvature_gri",
+        "mag_mean",
+        "mag_std"
+    ],
+    "pca_components": 5,
+    "pca_explained_variance_ratio": [
+        0.4118,
+        0.3232,
+        0.1361,
+        0.0774,
+        0.0494
+    ],
+    "pca_cumulative_variance_ratio": [
+        0.4118,
+        0.735,
+        0.8711,
+        0.9484,
+        0.9978
+    ],
+    "top_3_features_by_mi": [
+        "r_i",
+        "g_z",
+        "mag_std"
+    ],
+    "output_file": "c:\\Users\\Akanksha\\OneDrive\\Desktop\\ML_PROJECT2\\ML Project\\astronomy-ml-classification\\data\\processed\\sdss_features.csv"
+}

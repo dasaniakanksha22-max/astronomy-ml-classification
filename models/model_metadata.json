@@ -1,0 +1,53 @@
+{
+    "classes": [
+        "GALAXY",
+        "STAR",
+        "QSO"
+    ],
+    "photometric_features": [
+        "u",
+        "g",
+        "r",
+        "i",
+        "z",
+        "u_g",
+        "g_r",
+        "r_i",
+        "i_z",
+        "u_r",
+        "u_z",
+        "g_z",
+        "curvature_ugr",
+        "curvature_gri",
+        "mag_mean",
+        "mag_std"
+    ],
+    "features_with_redshift": [
+        "u",
+        "g",
+        "r",
+        "i",
+        "z",
+        "u_g",
+        "g_r",
+        "r_i",
+        "i_z",
+        "u_r",
+        "u_z",
+        "g_z",
+        "curvature_ugr",
+        "curvature_gri",
+        "mag_mean",
+        "mag_std",
+        "redshift"
+    ],
+    "test_size": 0.2,
+    "n_train": 79999,
+    "n_test": 20000,
+    "best_photometry_model": "Random Forest",
+    "best_photometry_accuracy": 0.88195,
+    "best_photometry_macro_f1": 0.8523670141392049,
+    "rf_with_redshift_accuracy": 0.97555,
+    "rf_with_redshift_macro_f1": 0.9720956137821176,
+    "timestamp": "2026-11-14 20:44:25"
+}
